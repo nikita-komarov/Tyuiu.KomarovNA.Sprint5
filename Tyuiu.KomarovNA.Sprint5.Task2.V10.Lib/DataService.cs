@@ -20,7 +20,7 @@ namespace Tyuiu.KomarovNA.Sprint5.Task2.V10.Lib
                     newMatrix[i, j] = matrix[i, j] > 0 ? 1: 0;
                     Console.Write(newMatrix[i, j]);
 
-                    File.AppendAllText(path, Convert.ToString(newMatrix[i, j])+(i==matrixLen-1 && j==submatrixLen-1? "": ";"));
+                    File.AppendAllText(path, Convert.ToString(newMatrix[i, j])+(j==submatrixLen-1? "": ";"));
                 }
                 Console.WriteLine();
                 File.AppendAllText(path, "\n");
