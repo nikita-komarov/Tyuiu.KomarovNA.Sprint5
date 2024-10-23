@@ -14,11 +14,11 @@ namespace Tyuiu.KomarovNA.Sprint5.Task1.V3.Lib
             {
                 if (i + 2.5 == 0)
                 {
-                    File.AppendAllText(path, "0");
+                    File.AppendAllText(path, "0\n");
                     continue;
                 }
                 res = Math.Round(Math.Cos(2 * i) + (Math.Sin(i)/(i+2.5)) + 2*i, 2);
-                File.AppendAllText(path, Convert.ToString(res));
+                File.AppendAllText(path, Convert.ToString(res) + "\n");
             }
             return path;
         }
