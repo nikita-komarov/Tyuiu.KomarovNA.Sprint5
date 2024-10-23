@@ -21,6 +21,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KomarovNA.Sprint5.Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KomarovNA.Sprint5.Task2.V10.Test", "Tyuiu.KomarovNA.Sprint5.Task2.V10.Test\Tyuiu.KomarovNA.Sprint5.Task2.V10.Test.csproj", "{EC51C376-309D-441F-A9ED-BB6DDB0E9EB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KomarovNA.Sprint5.Task3.V2.Lib", "Tyuiu.KomarovNA.Sprint5.Task3.V2.Lib\Tyuiu.KomarovNA.Sprint5.Task3.V2.Lib.csproj", "{6C27FE71-101B-459A-B8AD-88BD5D4306A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KomarovNA.Sprint5.Task3.V2", "Tyuiu.KomarovNA.Sprint5.Task3.V2\Tyuiu.KomarovNA.Sprint5.Task3.V2.csproj", "{5729F29D-17E8-4B83-823B-416070DF649F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KomarovNA.Sprint5.Task3.V2.Test", "Tyuiu.KomarovNA.Sprint5.Task3.V2.Test\Tyuiu.KomarovNA.Sprint5.Task3.V2.Test.csproj", "{DCC98E21-9A12-4440-80B8-ADEE31D45E31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +72,17 @@ Global
 		{EC51C376-309D-441F-A9ED-BB6DDB0E9EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC51C376-309D-441F-A9ED-BB6DDB0E9EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC51C376-309D-441F-A9ED-BB6DDB0E9EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C27FE71-101B-459A-B8AD-88BD5D4306A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C27FE71-101B-459A-B8AD-88BD5D4306A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C27FE71-101B-459A-B8AD-88BD5D4306A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C27FE71-101B-459A-B8AD-88BD5D4306A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5729F29D-17E8-4B83-823B-416070DF649F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5729F29D-17E8-4B83-823B-416070DF649F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5729F29D-17E8-4B83-823B-416070DF649F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5729F29D-17E8-4B83-823B-416070DF649F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC98E21-9A12-4440-80B8-ADEE31D45E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC98E21-9A12-4440-80B8-ADEE31D45E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC98E21-9A12-4440-80B8-ADEE31D45E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC98E21-9A12-4440-80B8-ADEE31D45E31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
