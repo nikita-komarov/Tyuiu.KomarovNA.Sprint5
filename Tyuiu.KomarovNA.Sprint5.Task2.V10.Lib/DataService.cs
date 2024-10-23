@@ -19,7 +19,7 @@ namespace Tyuiu.KomarovNA.Sprint5.Task2.V10.Lib
                 {
                     newMatrix[i, j] = matrix[i, j] > 0 ? 1: 0;
                     Console.Write(newMatrix[i, j]);
-                    File.AppendAllText(path, Convert.ToString(newMatrix[i, j]));
+                    File.AppendAllText(path, Convert.ToString(newMatrix[i, j])+";");
                 }
                 Console.WriteLine();
                 File.AppendAllText(path, "\n");
