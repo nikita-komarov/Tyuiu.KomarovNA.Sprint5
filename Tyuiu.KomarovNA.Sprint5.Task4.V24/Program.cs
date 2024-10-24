@@ -33,7 +33,7 @@ namespace Tyuiu.KomarovNA.Sprint5.Task4.V24
 
             DataService ds = new DataService();
 
-            var result = ds.YOURFUNCTION();
+            var result = ds.LoadFromDataFile("C://Temp/");
             Console.WriteLine(result);
             Console.ReadKey();
         }
