@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint5;
+﻿using System.Globalization;
+using tyuiu.cources.programming.interfaces.Sprint5;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Tyuiu.KomarovNA.Sprint5.Task5.V17.Lib
@@ -7,10 +8,10 @@ namespace Tyuiu.KomarovNA.Sprint5.Task5.V17.Lib
     {
         public double LoadFromDataFile(string path)
         {
-            int[] arr = File.ReadAllText(path).Split().Select(el => int.Parse(el)).ToArray();
+            double[] arr = File.ReadAllText(path).Split().Select(el => double.Parse(el, CultureInfo.InvariantCulture)).ToArray();
             double res = 0;
             bool is_prime = true;
-            foreach (int num in arr)
+            foreach (double num in arr)
             {
                 is_prime = true;
                 for (int i = 2; i <= (int) (num / 2); i++)
