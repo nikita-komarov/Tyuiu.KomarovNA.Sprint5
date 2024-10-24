@@ -7,7 +7,7 @@ namespace Tyuiu.KomarovNA.Sprint5.Task6.V3.Lib
     {
         public int LoadFromDataFile(string path)
         {
-            int result = Regex.Matches(File.ReadAllText(path), @"[А-Яа-я]").Count;
+            int result = Regex.Matches(File.ReadAllText(path), @"[A-Za-z]").Count;
             return result;
         }
     }
