@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KomarovNA.Sprint5.Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KomarovNA.Sprint5.Task3.V2.Test", "Tyuiu.KomarovNA.Sprint5.Task3.V2.Test\Tyuiu.KomarovNA.Sprint5.Task3.V2.Test.csproj", "{DCC98E21-9A12-4440-80B8-ADEE31D45E31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KomarovNA.Sprint5.Task4.V24.Lib", "Tyuiu.KomarovNA.Sprint5.Task4.V24.Lib\Tyuiu.KomarovNA.Sprint5.Task4.V24.Lib.csproj", "{AD32063B-B378-47F0-AB7B-EBE06DEB81C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KomarovNA.Sprint5.Task4.V24", "Tyuiu.KomarovNA.Sprint5.Task4.V24\Tyuiu.KomarovNA.Sprint5.Task4.V24.csproj", "{5A9F4F73-95CC-46D0-B5D9-54207CE99158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KomarovNA.Sprint5.Task4.V24.Test", "Tyuiu.KomarovNA.Sprint5.Task4.V24.Test\Tyuiu.KomarovNA.Sprint5.Task4.V24.Test.csproj", "{1FB98CE5-D203-42D3-8CB5-BDFFBE9D37DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +90,17 @@ Global
 		{DCC98E21-9A12-4440-80B8-ADEE31D45E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCC98E21-9A12-4440-80B8-ADEE31D45E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCC98E21-9A12-4440-80B8-ADEE31D45E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD32063B-B378-47F0-AB7B-EBE06DEB81C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD32063B-B378-47F0-AB7B-EBE06DEB81C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD32063B-B378-47F0-AB7B-EBE06DEB81C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD32063B-B378-47F0-AB7B-EBE06DEB81C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9F4F73-95CC-46D0-B5D9-54207CE99158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9F4F73-95CC-46D0-B5D9-54207CE99158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9F4F73-95CC-46D0-B5D9-54207CE99158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9F4F73-95CC-46D0-B5D9-54207CE99158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB98CE5-D203-42D3-8CB5-BDFFBE9D37DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB98CE5-D203-42D3-8CB5-BDFFBE9D37DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB98CE5-D203-42D3-8CB5-BDFFBE9D37DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB98CE5-D203-42D3-8CB5-BDFFBE9D37DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
