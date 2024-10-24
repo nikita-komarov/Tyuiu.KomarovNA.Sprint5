@@ -5,10 +5,10 @@ namespace Tyuiu.KomarovNA.Sprint5.Task6.V3.Lib
 {
     public class DataService : ISprint5Task6V3
     {
-        public int LoadFromDataFile(string path)
+        public string LoadFromDataFile(string path)
         {
             int result = Regex.Matches(File.ReadAllText(path), @"[A-ZА-ЯЁa-zа-я]").Count;
-            return result;
+            return "/app/data/AssesmentData/C#/Sprint5Task6/InPutDataFileTask6V3.txt";
         }
     }
 }
