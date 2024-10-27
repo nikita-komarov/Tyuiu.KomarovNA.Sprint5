@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint5;
+﻿using System.Text;
+using tyuiu.cources.programming.interfaces.Sprint5;
 
 namespace Tyuiu.KomarovNA.Sprint5.Task7.V8.Lib
 {
@@ -7,8 +8,19 @@ namespace Tyuiu.KomarovNA.Sprint5.Task7.V8.Lib
         public string LoadDataAndSave(string path)
         {
             string str = File.ReadAllText(path);
-            File.WriteAllText(Path.Combine(Path.GetTempPath(), "OutPutDataFileTask7V8.txt"), str);
-            return str.ToLower();
+
+            StringBuilder result = new StringBuilder(str.Length);
+
+            foreach (char c in str)
+            {
+                if (c >= 'А' && c <= 'Я')
+                {
+                    result.Append((char)(c + 'а' - 'А'));
+                }
+            }
+
+            File.WriteAllText(Path.Combine(Path.GetTempPath(), "OutPutDataFileTask7V8.txt"), result.ToString());
+            return result.ToString();
         }
     }
 }
