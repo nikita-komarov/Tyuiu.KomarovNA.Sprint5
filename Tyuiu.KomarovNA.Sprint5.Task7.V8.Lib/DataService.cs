@@ -17,6 +17,10 @@ namespace Tyuiu.KomarovNA.Sprint5.Task7.V8.Lib
                 {
                     result.Append((char)(c + 'а' - 'А'));
                 }
+                else 
+                { 
+                    result.Append(c);
+                }
             }
 
             File.WriteAllText(Path.Combine(Path.GetTempPath(), "OutPutDataFileTask7V8.txt"), result.ToString());
